@@ -1,0 +1,50 @@
+body{
+display: grid;
+grid-template-rows: auto 1fr auto; 
+justify-content: center;
+width: 960px;
+}
+header{
+    background-color: #39A2DB;
+    height: 50px;
+    width: 960px;
+}
+h1{
+    color: #E8F0F6;
+    text-align: center;
+    margin-top: 17px;
+}
+footer{
+    background-color:  #053742;
+    height: 35px;
+    width: 960px;
+}
+footer p{
+    color: #E8F0F6;
+    text-align: center; 
+    margin-top: 8px;
+}
+main{
+    display: flex;
+    width: 960px;
+}
+
+.form{
+    width: 50%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-right:100 px;
+}
+.data{
+    width: 50%;
+    margin-top: 50px;
+    line-height: 1.5;
+
+}
+form{
+    width: 300px;
+    margin-left: 150px;
+    background-color: #E8F0F6;
+   
+}
+
